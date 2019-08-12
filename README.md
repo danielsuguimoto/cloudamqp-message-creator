@@ -7,6 +7,7 @@ Push RabbitMQ messages to cloudamqp server
 * Create an RabbitMQ instance
 * On the instance details page, copy the AMQP URL
 * Paste the AMQP URL to the .env variable 'CONNECTION_URL'
+* Run the command `npm install`
 
 ## Serving
 Run the command `npm run start`
@@ -16,5 +17,5 @@ Post to `localhost:3000/send` with the following json request body:
 
 | Parameter | Required           | Description                                                                                  |
 |-----------|--------------------|----------------------------------------------------------------------------------------------|
-| `queue`   | :white_check_mark: | The queue name to post the message into                                                      |
-| `payload` | :white_check_mark: | The message to be sent to the queue                                                          |
+| `queue`   | :heavy_check_mark: | The queue name to post the message into                                                      |
+| `payload` | :heavy_check_mark: | The message to be sent to the queue                                                          |
