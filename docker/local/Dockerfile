@@ -9,5 +9,3 @@ RUN npm install
 COPY . /app
 
 CMD ["node", "start.js"]
-
-EXPOSE 3000
