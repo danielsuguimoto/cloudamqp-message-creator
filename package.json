@@ -9,7 +9,7 @@
   "author": "danielsuguimoto@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "@babel/register": "^7.5.5",
+    "@babel/register": "^7.7.7",
     "amqplib": "^0.5.5",
     "babel-cli": "^6.26.0",
     "babel-polyfill": "^6.26.0",
